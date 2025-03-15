@@ -26,7 +26,7 @@ steps:
     resourceGroupName: 'pb-az-mpn-neu-net01-rg'
     location: 'North Europe'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/indesol1959/ARMPipeline-repo/refs/heads/main/create_web_app/azuredeploy.json?token=GHSAT0AAAAAADAR4IN4L325XKEJ7MPNO7Y6Z6VQCMA'
+    csmFileLink: 'https://raw.githubusercontent.com/indesol1959/ARMPipeline-repo/refs/heads/main/create_web_app/azuredeploy.json'
     overrideParameters: '-projectName create_web_app'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
